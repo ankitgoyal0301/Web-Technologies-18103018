@@ -4,11 +4,11 @@
 ### SID: 18103018
 ---
 Web Technologies Assignments:
-- Assignment 1
+- **Assignment 1:**
 
 ![Assignment 1](https://github.com/ankitgoyal0301/18103018/blob/master/Lab%20Assignment%201/Assignment.PNG)
 
-- Assignment 2
+- **Assignment 2:**
 
 1. Write a java program to compare two strings lexicographically (without using library function).  
 2. Write a program to implement counting sort (with input in the range 0 to 20 and input can be repeated multiple times)  
