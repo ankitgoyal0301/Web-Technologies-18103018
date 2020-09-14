@@ -1,0 +1,2 @@
+Include the given dependencies to the Java libraries.
+Jsoup dependency
