@@ -1,2 +1,5 @@
-Include the given dependencies to the Java libraries.
+1. Include the given dependencies to the Java libraries.
 Jsoup dependency
+
+2. If there are multiple same tags on the same page, they are seperated by symbol | for clarity.
+ 
