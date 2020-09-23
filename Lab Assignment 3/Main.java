@@ -318,6 +318,7 @@ public class Main {
 
         // set to keep track of visited URLs
         Set<String> visitedUrls = new HashSet<String>();
+        visitedUrls.add(url);
 
         int index = 0, depth = 0;
         traverse(index,urlList, extraUrl,finalResultUrl,finalResultPara, finalResultURLtext, finalResultH1, finalResultH2, finalResultH3, finalResultH4,visitedUrls, depth);
