@@ -165,11 +165,15 @@ public class Main {
             cropsTemp[i] = new StringBuffer(cropInput);
         }
 
+        if(m == 1){
+            System.out.println("In each row, there must be at least 2 different varieties of crops as given in th question, so each row won't have 2 different variety of crops in each row.");
+            return;
+        }
+
         minimumPlants = Integer.MAX_VALUE;
         int x=1,y=0;
         minimumReplantation(crops,cropsTemp, x, y, n+1,m, changed);
 
         System.out.println("Minimum Replantations required are " + minimumPlants + ".");
     }
-
 }
